@@ -1,0 +1,196 @@
+.mossane-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./../assets/background.webp);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.mossane-navbar {
+  position: fixed;
+  left: 0%;
+  top: 0%;
+  padding: 0% 10%;
+  background-color: rgba(255, 255, 255, 0);
+}
+.mossane-link {
+  list-style: none;
+  padding: 10px;
+}
+.mossane-link:hover > a {
+  color: var(--secondary-color);
+}
+.mossane-link-active > a {
+  color: var(--secondary-color);
+}
+#logo {
+  width: 70px;
+}
+.mossane-dropdown {
+  position: relative;
+}
+.mossane-dropdown-hover {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -100%);
+  color: var(--white-color);
+  width: 500px;
+  opacity: 0;
+  transition: 0.5s ease-in;
+}
+.mossane-dropdown > div > ul > .mossane-link > a {
+  color: var(--white-color);
+}
+.mossane-dropdown:hover .mossane-dropdown-hover {
+  z-index: 100;
+  transform: translate(-50%, 0%);
+  background-color: var(--primary-color);
+  opacity: 1;
+}
+.mossane-dropdown > div > ul > .mossane-link > a:hover {
+  color: var(--secondary-color);
+}
+#mossane-menu-mobile {
+  display: none;
+}
+
+#mossane-btn-burger {
+  position: fixed;
+  display: none;
+  z-index: 0;
+  z-index: 200;
+  right: 15px;
+  top: 30px;
+  height: 5px;
+  width: 35px;
+  background-color: /* var(--primary-color) */ red;
+  overflow: visible;
+  cursor: pointer;
+}
+#mossane-btn-burger::after {
+  position: absolute;
+  background-color: /* var(--primary-color) */ red;
+  z-index: 100;
+  content: "";
+  top: 200%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+#mossane-btn-burger::before {
+  position: absolute;
+  background-color: /* var(--primary-color) */ red;
+  z-index: 100;
+  content: "";
+  top: -200%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#mossane-menu-mobile {
+  position: fixed;
+  margin: 0;
+  z-index: 100;
+  top: 0px;
+  width: 100vw;
+  height: 100vh;
+  transition: 0.5s ease-in-out;
+  background-color: var(--primary-color);
+  flex-direction: column;
+  justify-content: center;
+}
+.mossane-menu-mobile-open {
+  right: 1000px;
+}
+.mossane-menu-mobile-close {
+  right: 0px;
+}
+.mossane-divider {
+  width: 40%;
+}
+
+hgroup {
+  padding: 0;
+  text-transform: uppercase;
+}
+hgroup > h1 {
+  font-size: 5em;
+}
+hgroup > h2 {
+  font-size: 3em;
+  color: var(--secondary-color);
+}
+hgroup,
+hgroup + p {
+  text-align: left;
+  margin: 20px;
+  margin-left: 10%;
+}
+hgroup + p {
+  margin-top: 20px;
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+}
+.mossane-scrolldown {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+
+@media screen and (max-width: 992px) {
+  #logo {
+    width: 50px;
+    position: fixed;
+    left: 15px;
+    top: 5px;
+  }
+  #mossane-menu-mobile {
+    display: flex;
+  }
+  .mossane-navbar {
+    display: none;
+  }
+  .mossane-link > a {
+    color: var(--white-color);
+  }
+  .mossane-link-active > a {
+    color: var(--secondary-color);
+  }
+  .mossane-dropdown-hover {
+    position: relative;
+    top: 0%;
+    left: 0%;
+    z-index: 10;
+    transform: translate(0%, 0%);
+    color: var(--white-color);
+    width: fit-content;
+    height: max-content;
+    opacity: 1;
+  }
+  .mossane-dropdown-hover > ul {
+    flex-wrap: wrap;
+  }
+  .mossane-dropdown:hover .mossane-dropdown-hover {
+    z-index: 10;
+    transform: translate(0%, 0%);
+    background-color: var(--primary-color);
+    opacity: 1;
+  }
+  #mossane-btn-burger {
+    display: flex;
+  }
+
+  hgroup > h1 {
+    font-size: 3em;
+  }
+  hgroup > h2 {
+    font-size: 1.8em;
+  }
+  hgroup + p {
+    font-size: 1em;
+  }
+}

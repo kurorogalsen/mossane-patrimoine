@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+html{
+    --primary-color: rgb(20, 20, 75);
+    --secondary-color: #fb4901;
+    --white-color: rgb(233, 233, 255);
+    background-color: var(--white-color);
+}
+::after, ::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    max-width: 100%;
+    min-height: 100vh;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+a, a:hover{
+    text-decoration: none;
+    color: var(--primary-color);
+    transition: 0.3s ease-in-out;
+}
+img{
+    max-width: 100%;
+}
+input{
+    outline: none;
+    border: none;
+}
+nav{
+    margin: 0px 50px 100px 200px;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0);
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+    border-left: 1px solid var(--primary-color);
+    border-right: 1px solid var(--primary-color);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: var(--secondary-color);
+    border-radius: 205px;
+    cursor: pointer;
+}
