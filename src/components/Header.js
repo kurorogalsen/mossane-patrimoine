@@ -11,14 +11,14 @@ function Header() {
         <h1>
           <TypewriterComponent
             onInit={(typewriter) => {
-              typewriter.typeString("MOSSANE").start();
+              typewriter.changeDelay(100).typeString("MOSSANE").start();
             }}
           />
         </h1>
         <h2>
           <TypewriterComponent
             onInit={(typewriter) => {
-              typewriter.typeString("Patrimoine").start();
+              typewriter.changeDelay(90).typeString("Patrimoine").start();
             }}
           />
         </h2>
@@ -28,6 +28,7 @@ function Header() {
           onInit={(typewriter) => {
             typewriter
               .pauseFor(1750)
+              .changeDelay(50)
               .typeString("À vos côtés pour la réussite <br /> de vos projets.")
               .start();
           }}
