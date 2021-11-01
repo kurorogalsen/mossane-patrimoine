@@ -18,20 +18,20 @@ function Header() {
         <h2>
           <TypewriterComponent
             onInit={(typewriter) => {
-                
-              typewriter.pauseFor(1500).typeString("Patrimoine").start();
+              typewriter.typeString("Patrimoine").start();
             }}
           />
         </h2>
       </hgroup>
       <p>
         <TypewriterComponent
-            onInit={(typewriter) => {
-                
-              typewriter.pauseFor(3000).typeString("À vos côtés pour la réussite <br /> de vos projets.").start();
-            }}
-          />   
-        
+          onInit={(typewriter) => {
+            typewriter
+              .pauseFor(1750)
+              .typeString("À vos côtés pour la réussite <br /> de vos projets.")
+              .start();
+          }}
+        />
       </p>
       <div className="mossane-scrolldown">
         <span>Balayez vers le bas</span>
