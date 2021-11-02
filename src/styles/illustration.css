@@ -1,0 +1,21 @@
+.mossane-illustration:nth-child(2){
+    flex-direction: row-reverse;
+}
+.mossane-illustration-bloc1, .mossane-illustration-bloc2{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    flex-wrap: nowrap;
+    margin: 20px;
+}
+.mossane-illustration-bloc2>hgroup, .illustration-p{
+    font-size: 1.1em;
+    margin-left: 10px;
+}
+.illustration-p{
+    font-weight: normal;
+}
+.mossane-illustration>*>.mossane-btn{
+    position: absolute;
+
+}

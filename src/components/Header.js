@@ -1,9 +1,19 @@
 import "./../styles/Header.css";
 import Navbar from "./Navbar";
 import React from "react";
+import { scroller } from "react-scroll";
+import { scrollToSection } from "react-scroll";
 import TypewriterComponent from "typewriter-effect";
+import {Link} from 'react-scroll';
 
 function Header() {
+  let scrollToSection = () => {
+    scroller.scrollTo("#main-app", {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+  };
   return (
     <header className="mossane-header container column column-left">
       <Navbar />
@@ -35,7 +45,7 @@ function Header() {
         />
       </p>
       <div className="mossane-scrolldown">
-        <span>Balayez vers le bas</span>
+        <Link to="main-app" smooth={true} duration={1000}>Balayez vers le bas</Link>
         <div className="mossane-scrolldown-anim"> </div>
       </div>
     </header>

@@ -137,8 +137,11 @@ hgroup + p {
 }
 .mossane-scrolldown {
   position: absolute;
-  bottom: 10%;
-  left: 10%;
+  cursor: pointer;
+  left: 0px;
+  bottom: 50px;
+ margin: 20px;
+ margin-left: 10%;
 }
 
 @media screen and (max-width: 992px) {

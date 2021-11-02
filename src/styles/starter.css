@@ -3,6 +3,7 @@ html{
     --primary-color: rgb(20, 20, 75);
     --secondary-color: #fb4901;
     --white-color: rgb(233, 233, 255);
+    --grey-color: #cfcfcf;
     background-color: var(--white-color);
 }
 ::after, ::before, *{
