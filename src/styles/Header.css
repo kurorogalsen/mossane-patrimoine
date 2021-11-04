@@ -11,6 +11,9 @@
 .mossane-header>hgroup, .mossane-header>p{
   transform: translateY(-75px);
 }
+.mossane-header>hgroup>h1, .mossane-header>hgroup>h2{
+  font-family: 'Open Sans'!important;
+}
 .mossane-navbar {
   position: fixed;
   left: 0%;
@@ -21,6 +24,11 @@
 }
 .mossane-navbar-reveal{
   background-color: var(--grey-color);
+  box-shadow: 0px 0px 15px black;
+  padding: 0% 2%;
+}
+.mossane-navbar-reveal>#logo{
+  width: 40px;
 }
 .mossane-link {
   list-style: none;
@@ -34,6 +42,7 @@
 }
 #logo {
   width: 50px;
+  transition: 0.3s ease-in-out;
 }
 .mossane-dropdown {
   position: relative;

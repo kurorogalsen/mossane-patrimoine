@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import "./../../styles/main.css";
+import "./../../styles/Header.css";
 import batiment from "../../assets/batiment.webp";
 import famille from "../../assets/famille.webp";
 import Illustration from "./Illustration";
@@ -14,7 +15,7 @@ function Main() {
   const main_data = [
     {
       id: 0,
-      title: "Conseil et Gestion depatrimoine",
+      title: "Conseil et Gestion de patrimoine",
       urlImg: batiment,
       sousTitre: " ",
       paragraphe:
