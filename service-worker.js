@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mossane-patrimoine/precache-manifest.19e8983784781562e07403f931073286.js"
+  "/mossane-patrimoine/precache-manifest.eb15d5ff20bbab68e9a54e7aef3dc4fe.js"
 );
 
 self.addEventListener('message', (event) => {
