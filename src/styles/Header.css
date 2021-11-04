@@ -8,6 +8,9 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.mossane-header>hgroup, .mossane-header>p{
+  transform: translateY(-75px);
+}
 .mossane-navbar {
   position: fixed;
   left: 0%;
@@ -145,7 +148,7 @@ hgroup + p {
   cursor: pointer;
   z-index: -1;
   left: 0px;
-  bottom: 150px;
+  bottom: 200px;
   margin: 20px;
   margin-left: 10%;
 }

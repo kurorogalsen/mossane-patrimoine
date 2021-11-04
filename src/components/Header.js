@@ -35,7 +35,7 @@ function Header() {
           onInit={(typewriter) => {
             typewriter
               .pauseFor(1750)
-              .changeDelay(50)
+              .changeDelay(40)
               .typeString("À vos côtés pour la réussite <br /> de vos projets.")
               .start();
           }}
