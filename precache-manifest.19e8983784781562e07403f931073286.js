@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2c12102c21f7a29e81363b0890f11ac7",
+    "revision": "452bc71549711e9d0610f69331ef3142",
     "url": "/mossane-patrimoine/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mossane-patrimoine/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "f77f6d3fe69f91b231f4",
-    "url": "/mossane-patrimoine/static/css/main.ed2c2a07.chunk.css"
+    "revision": "6cd1dc2c1b430c6110ef",
+    "url": "/mossane-patrimoine/static/css/main.1047e3c6.chunk.css"
   },
   {
     "revision": "0a4bc2460ddf5cce9032",
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mossane-patrimoine/static/js/3.a8645e8c.chunk.js"
   },
   {
-    "revision": "f77f6d3fe69f91b231f4",
+    "revision": "6cd1dc2c1b430c6110ef",
     "url": "/mossane-patrimoine/static/js/main.76d8e190.chunk.js"
   },
   {
