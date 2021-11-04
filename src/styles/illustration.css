@@ -9,7 +9,7 @@
     margin: 20px;
 }
 .mossane-illustration-bloc2>hgroup, .illustration-p{
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-left: 10px;
 }
 .illustration-p{
@@ -18,4 +18,18 @@
 .mossane-illustration>*>.mossane-btn{
     position: absolute;
 
+}
+@media screen and (max-width: 992px) {
+    .mossane-illustration-bloc1, .mossane-illustration-bloc2{
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        flex-wrap: nowrap;
+        margin: 0px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .mossane-illustration-bloc2>hgroup, .illustration-p{
+        font-size: 0.9em;
+    }
 }

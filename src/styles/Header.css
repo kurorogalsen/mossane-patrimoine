@@ -2,6 +2,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
+  z-index: 500;
   background-image: url(./../assets/background.webp);
   background-position: left;
   background-repeat: no-repeat;
@@ -12,7 +13,11 @@
   left: 0%;
   top: 0%;
   padding: 0% 10%;
-  background-color: rgba(255, 255, 255, 0);
+  transition: 0.4s ease-in-out;
+  z-index: 1000;
+}
+.mossane-navbar-reveal{
+  background-color: var(--grey-color);
 }
 .mossane-link {
   list-style: none;
@@ -25,7 +30,7 @@
   color: var(--secondary-color);
 }
 #logo {
-  width: 70px;
+  width: 50px;
 }
 .mossane-dropdown {
   position: relative;
@@ -60,7 +65,7 @@
 #mossane-btn-burger {
   position: fixed;
   display: none;
-  z-index: 0;
+  z-index: 2000;
   z-index: 200;
   right: 15px;
   top: 30px;
@@ -138,10 +143,11 @@ hgroup + p {
 .mossane-scrolldown {
   position: absolute;
   cursor: pointer;
+  z-index: -1;
   left: 0px;
-  bottom: 50px;
- margin: 20px;
- margin-left: 10%;
+  bottom: 100px;
+  margin: 20px;
+  margin-left: 10%;
 }
 
 @media screen and (max-width: 992px) {
@@ -153,6 +159,7 @@ hgroup + p {
   }
   #mossane-menu-mobile {
     display: flex;
+    z-index: 1000;
   }
   .mossane-navbar {
     display: none;
@@ -185,6 +192,7 @@ hgroup + p {
   }
   #mossane-btn-burger {
     display: flex;
+    z-index: 5000;
   }
 
   hgroup > h1 {

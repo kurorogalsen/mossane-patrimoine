@@ -1,0 +1,70 @@
+#footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding-top: 30px;
+  font-size: 1.2em;
+}
+#footer > img {
+  border-radius: 0% 5% 0% 0%;
+}
+#footer > div {
+  background-color: #020727;
+}
+#contact-container {
+  padding: 10px;
+}
+#footer-container > h3 {
+  padding: 20px;
+  justify-content: flex-start;
+}
+#footer-container > div {
+  padding: 20px;
+  margin: 10px;
+}
+#footer-container > form > * {
+  padding: 10px;
+  margin: 10px;
+  outline: none;
+}
+#footer-container > form {
+  background-color: var(--primary-color);
+}
+#contact > * > #mention,
+#contact > * > h4 {
+  color: var(--secondary-color);
+}
+#contact {
+  padding-left: 75px;
+  text-align: left;
+}
+.contact-group {
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+.contact-group > a {
+  color: white;
+}
+#send-mail {
+  align-self: start;
+  margin: 20px!important;
+}
+.mossane-link {
+  cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+  #contact {
+    padding: 10px;
+    margin-top: 30px;
+    text-align: left;
+  }
+  #send-mail {
+    align-self: center;
+    margin: 10px!important;
+  }
+  #footer-container > h3 {
+    justify-content: center;
+  }
+  #footer {
+    font-size: 1em;
+  }
+}

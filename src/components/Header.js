@@ -1,19 +1,16 @@
+import React, {useEffect} from "react";
+import Aos from "aos";
+import "aos/dist/aos.css"
 import "./../styles/Header.css";
 import Navbar from "./Navbar";
-import React from "react";
-import { scroller } from "react-scroll";
-import { scrollToSection } from "react-scroll";
 import TypewriterComponent from "typewriter-effect";
 import {Link} from 'react-scroll';
 
 function Header() {
-  let scrollToSection = () => {
-    scroller.scrollTo("#main-app", {
-      duration: 800,
-      delay: 0,
-      smooth: "easeInOutQuart",
-    });
-  };
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true});
+  }, []);
+
   return (
     <header className="mossane-header container column column-left">
       <Navbar />
@@ -44,7 +41,7 @@ function Header() {
           }}
         />
       </p>
-      <div className="mossane-scrolldown">
+      <div data-aos="fade-right" data-aos-delay="2000" className="mossane-scrolldown">
         <Link to="main-app" smooth={true} duration={1000}>Balayez vers le bas</Link>
         <div className="mossane-scrolldown-anim"> </div>
       </div>

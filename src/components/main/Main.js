@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 import "./../../styles/main.css";
 import batiment from "../../assets/batiment.webp";
 import famille from "../../assets/famille.webp";
@@ -6,6 +8,9 @@ import Illustration from "./Illustration";
 import Testimonial from "./Testimonial";
 
 function Main() {
+  useEffect(() => {
+    Aos.init({ duration: 1500, once: true });
+  }, []);
   const main_data = [
     {
       id: 0,
@@ -49,8 +54,11 @@ function Main() {
       <Illustration donnees={main_data[1]} />
       <hr className="mossane-divider" />
       <div id="testimonial" className="container column">
-        <h2>Avis Clients</h2>
-        <p className="col-12 col-sm-11 col-md-10 col-lg-8 col-xl-6">
+        <h2 data-aos="fade-left">Avis Clients</h2>
+        <p
+          data-aos="fade-right"
+          className="col-12 col-sm-11 col-md-10 col-lg-8 col-xl-6"
+        >
           Dès les premiers jours, nous avons offert un service fiable à notre
           clientèle. Nous avons eu l'honneur de travailler sur des missions
           diverses et variées :
