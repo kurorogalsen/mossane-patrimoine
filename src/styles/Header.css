@@ -145,7 +145,7 @@ hgroup + p {
   cursor: pointer;
   z-index: -1;
   left: 0px;
-  bottom: 100px;
+  bottom: 150px;
   margin: 20px;
   margin-left: 10%;
 }
