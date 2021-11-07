@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "21fb518f265276c2d7fc1d7bcdb28728",
+    "revision": "232353c73cc6544290aa2bfa932a073d",
     "url": "/mossane-patrimoine/index.html"
   },
   {
-    "revision": "e5fee3a9905b807a9d33",
+    "revision": "6e66759aa12f50c73dfc",
     "url": "/mossane-patrimoine/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "dd013af4269867006693",
-    "url": "/mossane-patrimoine/static/css/main.5b366d5e.chunk.css"
+    "revision": "f992366710d19e5923bb",
+    "url": "/mossane-patrimoine/static/css/main.aedf359c.chunk.css"
   },
   {
-    "revision": "e5fee3a9905b807a9d33",
-    "url": "/mossane-patrimoine/static/js/2.5a083494.chunk.js"
+    "revision": "6e66759aa12f50c73dfc",
+    "url": "/mossane-patrimoine/static/js/2.fda0cbb2.chunk.js"
   },
   {
-    "revision": "fb6fca4f0fa26a7e27d26480a74532c9",
-    "url": "/mossane-patrimoine/static/js/2.5a083494.chunk.js.LICENSE.txt"
+    "revision": "f7e623707d9b37a3821ec4c3548a4309",
+    "url": "/mossane-patrimoine/static/js/2.fda0cbb2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b6a37b5f281d07a70d5b",
-    "url": "/mossane-patrimoine/static/js/3.a8645e8c.chunk.js"
+    "revision": "31496a182039a931622f",
+    "url": "/mossane-patrimoine/static/js/3.0cdc2fc7.chunk.js"
   },
   {
-    "revision": "dd013af4269867006693",
-    "url": "/mossane-patrimoine/static/js/main.c4d22da5.chunk.js"
+    "revision": "f992366710d19e5923bb",
+    "url": "/mossane-patrimoine/static/js/main.aa53b523.chunk.js"
   },
   {
-    "revision": "e0bbb7dd6acd4dd4e009",
-    "url": "/mossane-patrimoine/static/js/runtime-main.9fb858b7.js"
+    "revision": "dab601de79d0d3dc8b83",
+    "url": "/mossane-patrimoine/static/js/runtime-main.ae4c406a.js"
   },
   {
     "revision": "5c7664565dbb3f82471dca0b2853ae78",
