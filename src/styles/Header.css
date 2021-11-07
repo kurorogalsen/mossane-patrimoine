@@ -35,6 +35,7 @@
 .mossane-link {
   list-style: none;
   padding: 10px;
+  
 }
 .mossane-link:hover > a,
 .mossane-link:hover {
@@ -62,8 +63,8 @@
   opacity: 0;
   transition: 0.5s ease-in;
 }
-.mossane-dropdown > div > ul > .mossane-link > a,
-.mossane-dropdown > div > ul > .mossane-link {
+.mossane-dropdown > ul > .mossane-link > a,
+.mossane-dropdown > ul > .mossane-link {
   color: var(--white-color);
 }
 .mossane-dropdown:hover .mossane-dropdown-hover {
@@ -74,6 +75,13 @@
 }
 .mossane-dropdown > div > ul > .mossane-link > a:hover,
 .mossane-dropdown > div > ul > .mossane-link:hover {
+  color: var(--secondary-color);
+}
+.mossane-dropdown-hover >ul >a > .mossane-link{
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+.mossane-dropdown-hover >ul >a > .mossane-link:hover{
   color: var(--secondary-color);
 }
 #mossane-menu-mobile {

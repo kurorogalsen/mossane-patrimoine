@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "react-phone-number-input/input";
 import "././../styles/footer.css";
 import entrepreneur from "./../assets/entrepreneur.webp";
 import sent from "./../assets/sent.webp";
@@ -16,14 +17,33 @@ function Footer() {
                 type="text"
                 name="objet"
                 placeholder="Objet"
+                required
+              />
+              <input
+                className="col-11"
+                type="text"
+                name="Nom"
+                placeholder="Nom complet"
+                required
+              />
+              <input
+                type="tel"
+                pattern="[7]{1}[5-8]{1}[0-9]{7}"
+                className="col-11"
+                placeholder="Telephone"
+                required
               />
               <textarea
                 className="col-11"
                 rows="10"
                 col="10"
                 placeholder="Votre message ici..."
+                required
               ></textarea>
-              <button  id="send-mail" className="mossane-btn" type="submit"> Envoyer <img width="10" src={sent}/></button>
+              <button id="send-mail" className="mossane-btn" type="submit">
+                {" "}
+                Envoyer <img width="10" src={sent} />
+              </button>
             </form>
           </div>
           <div className="col-11 col-lg-6 column-left" id="contact">
@@ -41,7 +61,11 @@ function Footer() {
             </div>
             <p>
               Ce site a été conçu et déployé par la{" "}
-              <a id="mention" href="https://www.galsendigitalagency.com" target="_blank">
+              <a
+                id="mention"
+                href="https://www.galsendigitalagency.com"
+                target="_blank"
+              >
                 @Galsen Digital Agency
               </a>{" "}
               🚀

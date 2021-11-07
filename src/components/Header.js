@@ -12,7 +12,7 @@ function Header() {
   }, []);
 
   return (
-    <header className="mossane-header container column column-left">
+    <header id="mossane-header" className="mossane-header container column column-left">
       <hgroup>
         <h1>
           <TypewriterComponent

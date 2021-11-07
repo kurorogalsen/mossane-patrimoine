@@ -23,12 +23,11 @@ function Navbar() {
     const scrollContactMobile = document.querySelector("#scrollContactMobile>a");
     scrollContactMobile.addEventListener("click", () => {
       setOpen(!open);
-      console.log("Here!");
     });
   }
 
   return (
-    <div>
+    <div id="scrollUpAnchor">
       <nav
         className={`${
           navbar

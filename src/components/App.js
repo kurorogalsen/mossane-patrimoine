@@ -9,6 +9,8 @@ import Espacesportif from "./../pages/Espacesportif";
 import Actualites from "./../pages/Actualites";
 import Errorhttp from "./../pages/Errorhttp";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+          <Route path="/mossane-patrimoine" exact component={Main} />
           <Route path="/" exact component={Main} />
           <Route path="/cabinet" exact component={Cabinet} />
           <Route path="/prive" exact component={Prive} />
@@ -25,6 +28,7 @@ function App() {
           <Route path="/actualites" exact component={Actualites} />
           <Route path="/" component={Errorhttp}/>
         </Switch>
+        <ScrollToTop />
         <Footer />
       </Router>
     </div>
