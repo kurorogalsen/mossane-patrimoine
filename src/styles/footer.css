@@ -67,4 +67,7 @@
   #footer {
     font-size: 1em;
   }
+  #footer > img {
+    border-radius: 0% 0% 0% 0%;
+  }
 }

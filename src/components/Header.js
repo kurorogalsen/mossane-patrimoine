@@ -13,7 +13,6 @@ function Header() {
 
   return (
     <header className="mossane-header container column column-left">
-      <Navbar />
       <hgroup>
         <h1>
           <TypewriterComponent
@@ -42,7 +41,7 @@ function Header() {
         />
       </p>
       <div data-aos="fade-right" data-aos-delay="2000" className="mossane-scrolldown">
-        <Link to="main-app" smooth={true} duration={1000}>Balayez vers le bas</Link>
+        <Link to="main-start" smooth={true} duration={1000}>Balayez vers le bas</Link>
         <div className="mossane-scrolldown-anim"> </div>
       </div>
     </header>

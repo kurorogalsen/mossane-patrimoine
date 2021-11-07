@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-*{
-    font-family: 'Rubik', 'Open Sans', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  font-family: "Rubik", "Open Sans", sans-serif;
 }
-#main-app{
-    min-height: 100vh;
-    background-color: var(--grey-color);
+#main-app {
+  min-height: 100vh;
+  background-color: var(--grey-color);
 }
-#testimonial>h2{
-    margin-bottom: 20px;
+#testimonial > h2 {
+  margin-bottom: 20px;
 }

@@ -7,6 +7,7 @@ import batiment from "../../assets/batiment.webp";
 import famille from "../../assets/famille.webp";
 import Illustration from "./Illustration";
 import Testimonial from "./Testimonial";
+import Header from "./../Header";
 
 function Main() {
   useEffect(() => {
@@ -49,8 +50,11 @@ function Main() {
     },
   ];
   return (
+
     <div id="main-app" className="container column">
       {" "}
+      <Header />
+      <span id="main-start"></span>
       <Illustration donnees={main_data[0]} />
       <Illustration donnees={main_data[1]} />
       <hr className="mossane-divider" />

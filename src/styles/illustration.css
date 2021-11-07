@@ -1,4 +1,4 @@
-.mossane-illustration:nth-child(2){
+.mossane-illustration:nth-child(2n){
     flex-direction: row-reverse;
 }
 .mossane-illustration-bloc1, .mossane-illustration-bloc2{
