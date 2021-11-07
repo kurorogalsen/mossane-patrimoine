@@ -6,8 +6,8 @@ import sent from "./../assets/sent.webp";
 function Footer() {
   return (
     <footer id="footer" className="container row row-bottom">
-      <img className="col-12 col-md-8 col-xl-4 col-xxl-3" src={entrepreneur} />
-      <div className="col-12 col-xl-8 col-xxl-9">
+      <img className="col-12 col-md-8 col-xl-5 col-xxl-4" src={entrepreneur} />
+      <div className="col-12 col-xl-7 col-xxl-8">
         <div id="contact-container" className="container row row-bottom">
           <div id="footer-container" className="col-12 col-lg-4">
             <h3 className="container row">Contactez nous !</h3>
