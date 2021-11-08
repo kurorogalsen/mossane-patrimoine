@@ -22,7 +22,8 @@ function Main() {
       paragraphe:
         "Optimisez votre patrimoine, votre épargne et vos investissements immobiliers grâce à nos conseils en stratégie de placements. Mossane Patrimoine est un des premiers cabinets de conseil en gestion de patrimoine au Sénégal. Mossane Patrimoine conseille et gère le patrimoine des salariés du public et du privé, des chefs d'entreprise, de sportifs professionnels, des retraités, des rentiers... Quel que soit votre âge, Mossane Patrimoine vous accompagne dans vos projets car le conseil en gestion de patrimoine est calqué sur 3 étapes fondamentales de la vie : la création, la gestion et la transmission.",
       btn: "Découvrir nos activités",
-      redirection: "",
+      redirection: "/prive",
+      self: false,
     },
     {
       id: 1,
@@ -33,6 +34,7 @@ function Main() {
         "Optimisez votre patrimoine, votre épargne et vos investissements immobiliers grâce à nos conseils en stratégie de placements. Mossane Patrimoine est un des premiers cabinets de conseil en gestion de patrimoine au Sénégal. Mossane Patrimoine conseille et gère le patrimoine des salariés du public et du privé, des chefs d'entreprise, de sportifs professionnels, des retraités, des rentiers... Quel que soit votre âge, Mossane Patrimoine vous accompagne dans vos projets car le conseil en gestion de patrimoine est calqué sur 3 étapes fondamentales de la vie : la création, la gestion et la transmission.",
       btn: "Nous contacter",
       redirection: "footer",
+      self: true,
     },
   ];
   const testimonial = [
@@ -55,8 +57,7 @@ function Main() {
       {" "}
       <Header />
       <span id="main-start"></span>
-      <Illustration donnees={main_data[0]} />
-      <Illustration donnees={main_data[1]} />
+      <Illustration donnees={main_data} />
       <hr className="mossane-divider" />
       <div id="testimonial" className="container column">
         <h2 data-aos="fade-left">Avis Clients</h2>

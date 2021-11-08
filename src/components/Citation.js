@@ -7,7 +7,7 @@ function Citation({citation}) {
             <img className="container" src={citation.urlImg ? citation.urlImg : unknown} alt={citation.author} data-aos="zoom-in"/>
             <h3 data-aos="zoom-in">{citation.citation}</h3>
             <p data-aos="zoom-in">{citation.comment}</p>
-            <h4 data-aos="zoom-in">{citation.author}.</h4>
+            <h4 data-aos="zoom-in">{citation.author}</h4>
         </article>
     )));
 }

@@ -1,0 +1,61 @@
+#prive {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+#prive > section {
+  padding: 0px;
+  padding-bottom: 45px;
+}
+#prive > section > * {
+  padding: 10px;
+}
+#prive > section > h3 {
+  padding: 15px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+#immobilier > h4,
+#services > h4,
+#portefeuille > h4 {
+  text-transform: uppercase;
+  padding-bottom: 25px;
+}
+.service {
+  margin: 5px;
+  padding: 5px;
+}
+.service-container {
+  background-color: var(--grey-color);
+  color: var(--primary-color);
+}
+.service-container > * {
+  padding: 10px;
+}
+#immobilier {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  padding: 50px 0px 50px 0px !important;
+}
+#services {
+  padding: 50px 0px 50px 0px !important;
+}
+#portefeuille {
+  padding: 50px 0px 50px 0px !important;
+}
+.titleP {
+  padding: 25px !important;
+  text-align: left;
+}
+.titleP > h4 {
+  text-transform: uppercase;
+  font-size: 1.6em;
+}
+@media screen and (max-width: 992px) {
+  .service {
+    font-size: 0.85em;
+  }
+  .titleP > h4 {
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+}

@@ -1,9 +1,9 @@
 import React, {useEffect} from "react";
 import "./../styles/sport.css";
+import "./../styles/citation.css";
 import Headertemplate from "../components/Headertemplate";
 import Citation from "../components/Citation";
 import sport from "./../assets/sport.webp";
-
 import jordan from "./../assets/jordan.webp";
 import siki from "./../assets/siki.webp";
 import floyd from "./../assets/floyd.webp";
@@ -11,7 +11,6 @@ import ali from "./../assets/ali.webp";
 import woods from "./../assets/woods.webp";
 import maradona from "./../assets/maradona.webp";
 import bolt from "./../assets/bolt.webp";
-
 import Aos from "aos";
 
 function Espacesportif() {

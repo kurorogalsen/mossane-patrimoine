@@ -1,0 +1,28 @@
+#pro {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+#pro > section > h3 {
+  padding-top: 25px;
+}
+#greyPart,
+#bluePart {
+  color: var(--primary-color);
+  padding: 50px 5px 25px 5px;
+}
+#greyPart>*,
+#bluePart>* {
+  padding: 20px 5px 10px 5px;
+}
+#greyPart>h4,
+#bluePart>h4 {
+  text-transform: uppercase;
+}
+#greyPart {
+  background-color: var(--grey-color);
+  color: var(--primary-color);
+}
+#bluePart {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}

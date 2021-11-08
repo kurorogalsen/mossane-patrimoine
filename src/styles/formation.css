@@ -1,0 +1,9 @@
+#formation {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+
+#formation > h2 {
+  margin-top: 25px;
+  padding: 10px;
+}
