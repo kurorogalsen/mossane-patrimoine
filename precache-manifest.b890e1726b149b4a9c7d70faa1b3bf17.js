@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9a3fc77c390e43caa971741227023327",
+    "revision": "d475fd19e715f187471b42b329b9d02c",
     "url": "/mossane-patrimoine/index.html"
   },
   {
-    "revision": "44dd79a1d47f6151c6b0",
+    "revision": "7b9ea54fb354499a00ae",
     "url": "/mossane-patrimoine/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "796ffc3ea54167ad553d",
-    "url": "/mossane-patrimoine/static/css/main.308c287e.chunk.css"
+    "revision": "ceabe37fdbfe95e34339",
+    "url": "/mossane-patrimoine/static/css/main.837f0e33.chunk.css"
   },
   {
-    "revision": "44dd79a1d47f6151c6b0",
-    "url": "/mossane-patrimoine/static/js/2.77c8fee3.chunk.js"
+    "revision": "7b9ea54fb354499a00ae",
+    "url": "/mossane-patrimoine/static/js/2.166191f1.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/mossane-patrimoine/static/js/2.77c8fee3.chunk.js.LICENSE.txt"
+    "url": "/mossane-patrimoine/static/js/2.166191f1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad02bccf9be7f96200b8",
-    "url": "/mossane-patrimoine/static/js/3.772bb320.chunk.js"
+    "revision": "06bb327c5039fa58a265",
+    "url": "/mossane-patrimoine/static/js/3.e44cbb09.chunk.js"
   },
   {
-    "revision": "796ffc3ea54167ad553d",
-    "url": "/mossane-patrimoine/static/js/main.09f5a98d.chunk.js"
+    "revision": "ceabe37fdbfe95e34339",
+    "url": "/mossane-patrimoine/static/js/main.da4a9b24.chunk.js"
   },
   {
-    "revision": "994ebc94f88e3f85b774",
-    "url": "/mossane-patrimoine/static/js/runtime-main.c937004a.js"
+    "revision": "22fc8ec07cdae0ea17bd",
+    "url": "/mossane-patrimoine/static/js/runtime-main.a955124d.js"
   },
   {
     "revision": "1b3655dd44a39b822e158716132e7d55",
@@ -56,8 +56,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mossane-patrimoine/static/media/entrepreneur.1de62764.webp"
   },
   {
+    "revision": "7f9cc870bc3bb601ce714cd47a991dd2",
+    "url": "/mossane-patrimoine/static/media/etude.7f9cc870.webp"
+  },
+  {
     "revision": "151456efdc5fceeb699dcec686049489",
     "url": "/mossane-patrimoine/static/media/famille.151456ef.webp"
+  },
+  {
+    "revision": "586f0f5782eec265094fed0e937ecee6",
+    "url": "/mossane-patrimoine/static/media/famille2.586f0f57.webp"
   },
   {
     "revision": "74bb59d90f81a8827a37e8e58453c196",
@@ -66,6 +74,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "58d2d74b85fea88812492a10fa0a8a3a",
     "url": "/mossane-patrimoine/static/media/formation.58d2d74b.webp"
+  },
+  {
+    "revision": "a34570b8c5a2be9419e51a82b4bfeab3",
+    "url": "/mossane-patrimoine/static/media/heritage.a34570b8.webp"
   },
   {
     "revision": "923042c920226508ecc0172cc41c4271",
@@ -88,6 +100,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mossane-patrimoine/static/media/pro.76a0c6b5.webp"
   },
   {
+    "revision": "dc8cbd449b0babc44d0c5dfec7f4d316",
+    "url": "/mossane-patrimoine/static/media/retraite.dc8cbd44.webp"
+  },
+  {
+    "revision": "7059d76e8912cd01b5b4900bef03206c",
+    "url": "/mossane-patrimoine/static/media/seminaire.7059d76e.webp"
+  },
+  {
     "revision": "5d84bd53275878606b6ed801efddc25a",
     "url": "/mossane-patrimoine/static/media/sent.5d84bd53.webp"
   },
@@ -102,6 +122,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5e78f88225b5b1f441a3dfea52af462b",
     "url": "/mossane-patrimoine/static/media/team.5e78f882.webp"
+  },
+  {
+    "revision": "0e88f6380bb377c235f75ca2557659f7",
+    "url": "/mossane-patrimoine/static/media/technique.0e88f638.webp"
   },
   {
     "revision": "361684242af3148ec0a0ec0531fb9719",
