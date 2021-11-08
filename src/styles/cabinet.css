@@ -1,0 +1,15 @@
+#cabinet {
+  background-color: var(--primary-color);
+}
+#cabinet > * {
+  color: var(--white-color);
+}
+#cabinet > h2 {
+  text-transform: uppercase;
+  padding: 10px;
+  margin: 10px;
+}
+#cabinet > h3 {
+  padding: 10px;
+  margin: 10px;
+}

@@ -1,12 +1,12 @@
 import React from 'react'
 import "./../styles/prive.css";
 import Headertemplate from '../components/Headertemplate';
-import batiment from "./../assets/batiment.webp"
+import prive from "./../assets/prive.webp"
 
 function Prive() {
     return (
         <main id="prive" className="container column">
-            <Headertemplate urlImg={batiment} text="Clientèle privée" />
+            <Headertemplate urlImg={prive} text="Clientèle privée" />
         </main>
     )
 }

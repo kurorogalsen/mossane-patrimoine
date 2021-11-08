@@ -1,0 +1,23 @@
+#sport {
+  background-color: var(--primary-color);
+  color: var(--white-color);
+}
+#sport > section > p,
+#sport > section > h2 {
+  padding: 15px;
+}
+#sport > section > h2 {
+  margin-top: 25px;
+}
+.citation {
+  padding: 15px;
+}
+.citation > * {
+  padding: 10px;
+}
+.citation > h3 {
+    font-style: italic;
+}
+.citation > h4 {
+    color: var(--secondary-color);
+}

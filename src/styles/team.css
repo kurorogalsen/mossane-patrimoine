@@ -1,0 +1,10 @@
+.team {
+  margin: 25px;
+  text-align: left;
+}
+.team > * {
+  padding: 5px;
+}
+.team > h4 {
+    color: var(--secondary-color);
+}

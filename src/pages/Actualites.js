@@ -7,6 +7,7 @@ function Actualites() {
     return (
         <main id="actualite" className="container column">
             <Headertemplate urlImg={actualite} text="Actualite" />
+            <h2>Contenu à venir ...</h2>
         </main>
     )
 }
