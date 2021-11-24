@@ -1,35 +1,55 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d475fd19e715f187471b42b329b9d02c",
+    "revision": "0eef957a08954e093d6af6a8b3ff7333",
     "url": "/mossane-patrimoine/index.html"
   },
   {
-    "revision": "7b9ea54fb354499a00ae",
+    "revision": "3e87044b05476b4709af",
     "url": "/mossane-patrimoine/static/css/2.451bf2e4.chunk.css"
   },
   {
-    "revision": "ceabe37fdbfe95e34339",
-    "url": "/mossane-patrimoine/static/css/main.837f0e33.chunk.css"
+    "revision": "3b91de4305ec0abb31da",
+    "url": "/mossane-patrimoine/static/css/main.3e262b0e.chunk.css"
   },
   {
-    "revision": "7b9ea54fb354499a00ae",
-    "url": "/mossane-patrimoine/static/js/2.166191f1.chunk.js"
+    "revision": "3e87044b05476b4709af",
+    "url": "/mossane-patrimoine/static/js/2.aeafe930.chunk.js"
   },
   {
     "revision": "f7e623707d9b37a3821ec4c3548a4309",
-    "url": "/mossane-patrimoine/static/js/2.166191f1.chunk.js.LICENSE.txt"
+    "url": "/mossane-patrimoine/static/js/2.aeafe930.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06bb327c5039fa58a265",
-    "url": "/mossane-patrimoine/static/js/3.e44cbb09.chunk.js"
+    "revision": "d65a84b4202708896c2b",
+    "url": "/mossane-patrimoine/static/js/3.26366128.chunk.js"
   },
   {
-    "revision": "ceabe37fdbfe95e34339",
-    "url": "/mossane-patrimoine/static/js/main.da4a9b24.chunk.js"
+    "revision": "3b91de4305ec0abb31da",
+    "url": "/mossane-patrimoine/static/js/main.296255c6.chunk.js"
   },
   {
-    "revision": "22fc8ec07cdae0ea17bd",
-    "url": "/mossane-patrimoine/static/js/runtime-main.a955124d.js"
+    "revision": "53237d83f803429f4f40",
+    "url": "/mossane-patrimoine/static/js/runtime-main.ef3a617a.js"
+  },
+  {
+    "revision": "2febc01e329d1e0a5ba3b2b0c3142134",
+    "url": "/mossane-patrimoine/static/media/1.2febc01e.webp"
+  },
+  {
+    "revision": "4376b18a64d4b747c57b03c0fe6b591e",
+    "url": "/mossane-patrimoine/static/media/1.4376b18a.webp"
+  },
+  {
+    "revision": "584401f78c567f6558c943abe67b1c07",
+    "url": "/mossane-patrimoine/static/media/2.584401f7.webp"
+  },
+  {
+    "revision": "d578a1be9d96403371858ebe8fd7e4f4",
+    "url": "/mossane-patrimoine/static/media/2.d578a1be.webp"
+  },
+  {
+    "revision": "08d2182c8a54ccecf33f47dfa520c1e8",
+    "url": "/mossane-patrimoine/static/media/3.08d2182c.webp"
   },
   {
     "revision": "1b3655dd44a39b822e158716132e7d55",
@@ -40,8 +60,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mossane-patrimoine/static/media/ali.ef3279dd.webp"
   },
   {
-    "revision": "5c7664565dbb3f82471dca0b2853ae78",
-    "url": "/mossane-patrimoine/static/media/background.5c766456.webp"
+    "revision": "3a290b3507e458d3d40f967a948c0fec",
+    "url": "/mossane-patrimoine/static/media/background.3a290b35.webp"
   },
   {
     "revision": "f7c5f49fa8c36d360496cb0c86951bb3",
