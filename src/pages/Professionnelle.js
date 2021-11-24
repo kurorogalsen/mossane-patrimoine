@@ -4,6 +4,8 @@ import "./../styles/prive.css";
 import "./../styles/pro.css";
 import Headertemplate from "../components/Headertemplate";
 import pro from "./../assets/pro.webp";
+import entreprise from "./../assets/pro/1.webp";
+import audit from "./../assets/pro/2.webp";
 import Aos from "aos";
 
 function Professionnelle() {
@@ -86,6 +88,7 @@ function Professionnelle() {
             >
               Accompagnement du chef d’entreprise :{" "}
             </h4>
+            <img style={{padding: "15px"}} className="col-12 col-md-9" src={entreprise} alt="patrimoine" />
             <p
               className="col-12 col-md-10 col-lg-9 col-xl-8 col-xxl-7"
               data-aos="zoom-in"
@@ -104,6 +107,7 @@ function Professionnelle() {
             <h4 className="container" data-aos="zoom-in">
               Accompagnement dans la transmission du patrimoine professionnel :{" "}
             </h4>
+            <img style={{padding: "15px"}} className="col-12 col-md-9" src={audit} alt="patrimoine" />
             <div className="container row row-top">
               <List services={listPro} />
             </div>

@@ -7,6 +7,9 @@ import famille2 from "./../assets/famille2.webp";
 import etude from "./../assets/etude.webp";
 import retraite from "./../assets/retraite.webp";
 import heritage from "./../assets/heritage.webp";
+import patrimoine from "./../assets/prive/1.webp";
+import construction from "./../assets/prive/2.webp";
+import bourse from "./../assets/prive/3.webp";
 import Aos from "aos";
 
 function Prive() {
@@ -99,7 +102,10 @@ function Prive() {
           actuelles, il est indispensable d’être accompagné par un ingénieur
           patrimonial. Ce dernier, disposant des compétences et certifications
           nécessaires, vous conseillera pour assurer la sécurisation,
-          l’optimisation et la transmission de votre patrimoine. Sur la base
+          l’optimisation et la transmission de votre patrimoine.
+        </p>
+        <p>
+          Sur la base
           d’un audit et d’un bilan patrimonial, notre analyse globale nous
           permet de vous proposer la solution la plus adaptée à votre situation
           patrimoniale et répondant à vos objectifs et besoins. Nous collaborons
@@ -113,6 +119,7 @@ function Prive() {
             Pour la gestion de votre patrimoine immobilier, nous vous proposons
             les services suivants :{" "}
           </h4>
+          <img style={{padding: "15px"}} className="col-12 col-md-9" src={patrimoine} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listService} />
           </div>
@@ -121,6 +128,7 @@ function Prive() {
           <h4 className="container" data-aos="zoom-in">
             Promotion immobilière :{" "}
           </h4>
+          <img style={{padding: "15px"}} className="col-12 col-md-9" src={construction} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listImmobilière} />
           </div>
@@ -129,6 +137,7 @@ function Prive() {
           <h4 className="container" data-aos="zoom-in">
             Placement et gestion de portefeuille :{" "}
           </h4>
+          <img style={{padding: "15px"}} className="col-12 col-md-9" src={bourse} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listPortefeuille} />
           </div>

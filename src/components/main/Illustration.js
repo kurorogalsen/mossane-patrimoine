@@ -33,7 +33,8 @@ function Illustration({ donnees }) {
           <h3> {donnee.title} </h3>
           <h4> {donnee.sousTitre} </h4>
         </hgroup>
-        <p className="illustration-p">{donnee.paragraphe}</p>
+        {donnee.paragraphe.map((p) => (<p className="illustration-p">{p.text}</p>))}
+        
       </div>
     </div>
   ));

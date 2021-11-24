@@ -58,3 +58,7 @@
 .mossane-illustration>*>a:hover>.mossane-btn-anim{
     transform: translate(5px, -50%);
 }
+.illustration-p:last-child{
+    text-align: left;
+    padding-bottom: 25px;
+}

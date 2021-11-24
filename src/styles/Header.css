@@ -4,7 +4,7 @@
   height: 100vh;
   z-index: 500;
   background-image: url(./../assets/background.webp);
-  background-position: left;
+  background-position: left top;
   background-repeat: no-repeat;
   background-size: cover;
 }
