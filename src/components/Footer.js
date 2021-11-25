@@ -40,7 +40,10 @@ function Footer() {
                 placeholder="Votre message ici..."
                 required
               ></textarea>
-              <button id="send-mail" className="mossane-btn" type="submit">
+              <div className="col-11 row">
+                Le formulaire n'est pas encore fonctionnel veuillez appeler svp.
+              </div>
+              <button id="send-mail" className="mossane-btn" type="submit" disabled>
                 {" "}
                 Envoyer <img width="10" src={sent} />
               </button>
@@ -57,7 +60,7 @@ function Footer() {
             </div>
             <div className="contact-group">
               <h4>Adresse e-mail</h4>
-              <p>contact@groupemossane.com</p>
+              <p>{/* contact@groupemossane.com */} À venir...</p>
             </div>
             <p>
               Ce site a été conçu et déployé par la{" "}
