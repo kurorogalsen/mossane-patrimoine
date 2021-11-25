@@ -10,9 +10,9 @@ function Testimonial() {
     },
     {
       id: 1,
-      auteur: "Ibrahima D. 43 ans, chef d’entreprise",
+      auteur: "Mme Fall 48 ans",
       commentaire:
-        "« Professionnels et réactifs… Voilà comment je définirais les équipes de Mossane patrimoine. Diriger une entreprise n’est pas une chose aisée mais votre expertise et votre accompagnement me permettent de faire un énorme gain de temps et me donnent les moyens de développer sereinement mon activité. »",
+        "« J’ai failli perdre un terrain acquis il y a 10 ans. En réalité je n’avais un document valable prouvant ma propriété. Grâce à vous j’ai pu régulariser tous les documents et vendre le terrain devant notaire dans les meilleures conditions.»",
     },
     {
       id: 2,

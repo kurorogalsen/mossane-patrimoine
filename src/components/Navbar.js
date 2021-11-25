@@ -40,29 +40,29 @@ function Navbar() {
           <Link to="/">
             <li className="mossane-link mossane-link-active"> Accueil </li>
           </Link>
-          <Link to="/cabinet">
+          <Link to="/cabinet/">
             <li className="mossane-link"> Le cabinet </li>
           </Link>
           <li className="mossane-link mossane-dropdown">
             <a href="#">Activités</a>
             <div className="mossane-dropdown-hover column">
               <ul className="container row">
-                <Link to="/prive">
+                <Link to="/prive/">
                   <li className="mossane-link"> Clientèle privée </li>
                 </Link>
-                <Link to="/professionnelle">
+                <Link to="/professionnelle/">
                   <li className="mossane-link"> Clientèle professionnelle </li>
                 </Link>
-                <Link to="/formations">
+                <Link to="/formations/">
                   <li className="mossane-link"> Séminaire et formations </li>
                 </Link>
               </ul>
             </div>
           </li>
-          <Link to="/espaceSportif">
+          <Link to="/espaceSportif/">
             <li className="mossane-link"> Espace sportif </li>
           </Link>
-          <Link to="/actualites">
+          <Link to="/actualites/">
             <li className="mossane-link"> Actualités </li>
           </Link>
           <li className="mossane-link">
@@ -92,7 +92,7 @@ function Navbar() {
           </div>
           <hr className="mossane-divider" />
           <div className="link-parent">
-            <Link to="/cabinet">
+            <Link to="/cabinet/">
               <li className="mossane-link" onClick={showMenu}>
                 {" "}
                 Le cabinet{" "}
@@ -106,7 +106,7 @@ function Navbar() {
             <div className="mossane-dropdown-hover column">
               <ul className="container row">
                 <div className="link-parent">
-                  <Link to="/prive">
+                  <Link to="/prive/">
                     <li className="mossane-link" onClick={showMenu}>
                       {" "}
                       Clientèle privée{" "}
@@ -114,7 +114,7 @@ function Navbar() {
                   </Link>
                 </div>
                 <div className="link-parent">
-                  <Link to="/professionnelle">
+                  <Link to="/professionnelle/">
                     <li className="mossane-link" onClick={showMenu}>
                       {" "}
                       Clientèle professionnelle{" "}
@@ -122,7 +122,7 @@ function Navbar() {
                   </Link>
                 </div>
                 <div className="link-parent">
-                  <Link to="/formations">
+                  <Link to="/formations/">
                     <li className="mossane-link" onClick={showMenu}>
                       {" "}
                       Séminaire et formations{" "}
@@ -135,7 +135,7 @@ function Navbar() {
 
           <hr className="mossane-divider" />
           <div className="link-parent">
-            <Link to="/espaceSportif">
+            <Link to="/espaceSportif/">
               <li className="mossane-link" onClick={showMenu}>
                 {" "}
                 Espace sportif{" "}
@@ -145,7 +145,7 @@ function Navbar() {
 
           <hr className="mossane-divider" />
           <div className="link-parent">
-            <Link to="/actualites">
+            <Link to="/actualites/">
               <li className="mossane-link" onClick={showMenu}>
                 {" "}
                 Actualités{" "}

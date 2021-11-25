@@ -14,7 +14,7 @@ function Cabinet() {
       id: 0,
       urlImg: null,
       name: "Papa Socé Fall",
-      text: "Papa Socé FALL, Président Directeur Général. Il est diplômé du Centre d’études des Techniques Financières d’ingénierie de l’université Aix Marseille 3 (Master 2 gestion de patrimoine). Cette formation a débouché sur une carrière bancaire de 10 ans en France où il a occupé des postes de Conseiller en patrimoine financier et de chargé d’affaires professionnelles. Professeur auprès instituts d’enseignements privés où il enseigne l’ingénierie patrimoniale, les techniques et pratiques bancaires et le marketing bancaire. Titulaire d’un certificat de formation professionnelle en formation immobilière à l’Institut des Professions Juridiques et Immobilières (IPJI) de Dakar, diplôme obtenu en 2021.",
+      text: "Papa Socé FALL, Président Directeur Général. Il est diplômé du Centre d’études des Techniques Financières d’ingénierie de l’université Aix Marseille 3 (Master 2 gestion de patrimoine). Cette formation a débouché sur une carrière bancaire de 10 ans en France où il a occupé des postes de Conseiller en patrimoine financier et de chargé d’affaires professionnelles. Professeur auprès d'instituts d’enseignements privés où il enseigne l’ingénierie patrimoniale, les techniques et pratiques bancaires et le marketing bancaire. Titulaire d’un certificat de formation professionnelle en formation immobilière à l’Institut des Professions Juridiques et Immobilières (IPJI) de Dakar, diplôme obtenu en 2021.",
     },
     {
       id: 1,
@@ -41,7 +41,6 @@ function Cabinet() {
     <main id="cabinet" className="container column">
       <Headertemplate urlImg={team} text="Le cabinet" />
       <h2>Présentation de l'équipe:</h2>
-      <p>Le cabinet est composé de deux associés et plusieurs consultants...</p>
       <div className="container row row-top">
         <Team team={teamInfo} />
       </div>

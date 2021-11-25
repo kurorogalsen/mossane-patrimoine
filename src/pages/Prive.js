@@ -190,8 +190,7 @@ function Prive() {
           que l’on possède un patrimoine, il est primordial d’envisager sa
           transmission. Il existe plusieurs options permettant de transmettre
           son patrimoine tout en préservant une harmonie familiale : donations,
-          testament, démembrements de propriété, assurance vie, etc. La
-          protection de la famille Notre expertise vous permettra de faire le
+          testament, démembrements de propriété, assurance vie, etc. Notre expertise vous permettra de faire le
           choix adapté à votre situation.
         </p>
       </section>
