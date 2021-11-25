@@ -49,15 +49,15 @@ function Footer() {
           <div className="col-11 col-lg-6 column-left" id="contact">
             <div className="contact-group">
               <h4>Adresse physique</h4>
-              <p>12, rue Blaise Pascal 75000 Paris</p>
+              <p>Sacré cœur 3 VDN extension n° 10378</p>
             </div>
             <div className="contact-group">
               <h4>Numéro de téléphone</h4>
-              <a href="tel:01-23-45-67-89">01-23-45-67-89</a>
+              <a href="tel:+221772369481">772369481</a> / <a href="tel:+221763771820">763771820</a>
             </div>
             <div className="contact-group">
               <h4>Adresse e-mail</h4>
-              <p>contact@mossane.com</p>
+              <p>contact@groupemossane.com</p>
             </div>
             <p>
               Ce site a été conçu et déployé par la{" "}

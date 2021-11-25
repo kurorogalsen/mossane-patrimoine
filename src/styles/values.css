@@ -1,0 +1,18 @@
+#values {
+    background-color: var(--primary-color);
+    padding: 25px;
+    color: var(--white-color);
+    text-transform: capitalize;
+}
+#values > * {
+    padding: 15px;
+}
+.value{
+    margin-bottom: 25px;
+}
+@media screen and (max-width: 992px) {
+    #values {
+        background-color: var(--primary-color);
+        padding: 15px;
+    }    
+}

@@ -1,23 +1,31 @@
-#testimonial{
+#testimonial {
     z-index: 100;
     position: relative;
     padding: 5px;
     padding-top: 25px;
     font-size: 1.1em;
 }
-.testimonial{
+
+.testimonial {
     background-color: #020727;
     margin: 20px;
     color: white;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+    transition: 0.4s ease-in-out;
 }
-.testimonial>*{
+
+.testimonial>* {
     padding: 5px;
 }
-.testimonial>div{
+
+.testimonial>div {
     background-color: white;
     color: var(--primary-color);
 }
-#testimonial:before{
+
+#testimonial:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -27,12 +35,64 @@
     height: 50%;
     background-color: var(--primary-color);
 }
+
 @media screen and (max-width: 992px) {
-    #testimonial{
+    #testimonial {
         z-index: 100;
         position: relative;
         padding: 5px;
         padding-top: 25px;
         font-size: 0.9em;
     }
+}
+
+
+.testi-ok {
+    animation-name: ok;
+}
+
+.testi-no {
+    display: none;
+}
+@keyframes ok {
+    0%{
+        display: flex;
+        opacity: 0;
+    }
+    100%{
+        display: flex;
+        opacity: 1;
+    }
+}
+.fleche {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
+.fleche:first-child {
+    left: 100px;
+}
+
+.fleche:last-child {
+    right: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .fleche:first-child {
+        left: 5px;
+    }
+
+    .fleche:last-child {
+        right: 5px;
+    }
+
+    .fleche {
+        font-size: 1.5rem;
+    }
+
 }

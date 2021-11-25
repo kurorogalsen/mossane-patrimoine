@@ -8,6 +8,7 @@ import famille from "../../assets/famille.webp";
 import Illustration from "./Illustration";
 import Testimonial from "./Testimonial";
 import Header from "./../Header";
+import Values from "../Values";
 
 function Main() {
   useEffect(() => {
@@ -53,20 +54,7 @@ function Main() {
       self: true,
     },
   ];
-  const testimonial = [
-    {
-      id: 0,
-      auteur: "Abdou D. 54 ans",
-      commentaire:
-        "« Nous étions confrontés à une succession complexe qui n’a pas été réglée depuis plus de 10 ans par manque de connaissance mais aussi à cause de conflits familiaux.Grâce à votre professionnalisme, vous avez débouclé en quelques mois la situation en effectuant toutes les démarches et en nous permettant d’obtenir tous les documents qui nous permettent aujourd’hui de procéder au partage de l’ensemble des biens familiaux. »",
-    },
-    {
-      id: 1,
-      auteur: "Ibrahima D. 43 ans, chef d’entreprise",
-      commentaire:
-        "« Professionnels et réactifs… Voilà comment je définirais les équipes de Mossane patrimoine. Diriger une entreprise n’est pas une chose aisée mais votre expertise et votre accompagnement me permettent de faire un énorme gain de temps et me donnent les moyens de développer sereinement mon activité. »",
-    },
-  ];
+
   return (
 
     <div id="main-app" className="container column">
@@ -74,7 +62,7 @@ function Main() {
       <Header />
       <span id="main-start"></span>
       <Illustration donnees={main_data} />
-      <hr className="mossane-divider" />
+      <Values />
       <div id="testimonial" className="container column">
         <h2 data-aos="fade-left">Avis Clients</h2>
         <p
@@ -86,8 +74,7 @@ function Main() {
           diverses et variées :
         </p>
         <div className="row row-top">
-          <Testimonial avis={testimonial[0]} />
-          <Testimonial avis={testimonial[1]} />
+          <Testimonial/>
         </div>
       </div>{" "}
     </div>
