@@ -88,16 +88,16 @@
 
 #notif {
   background-color: rgb(16, 161, 23) !important;
-  z-index: 10000;
+  z-index: 1;
   padding: 3px;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   width: 100%;
   margin: 0px !important;
 }
 
 #error {
   background-color: rgb(156, 35, 35) !important;
-  z-index: 10000;
+  z-index: 1;
   padding: 3px;
   font-size: 0.7rem;
   width: 100%;

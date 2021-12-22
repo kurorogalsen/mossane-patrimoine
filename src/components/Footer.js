@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import axios from "axios";
 import "././../styles/footer.css";
 import entrepreneur from "./../assets/entrepreneur.webp";
@@ -11,20 +11,11 @@ function Footer() {
   const [msg, setMsg] = useState("");
   const [email, setEmail] = useState("");
   const [objet, setObjet] = useState("");
+
   function sendMail(e) {
     e.preventDefault();
-
     if (nomcomplet !== "" && telephone !== "" && msg !== "" && email !== "" && objet !== "") {
       setError(false);
-      setNotif(true);
-      console.log("correct");
-    }
-    else {
-      setError(true);
-      console.log("erreur");
-    }
-
-    if (error === false) {
       console.log("Entrée !");
       axios.post('https://www.mossanegroup.com/mailling', {
         objet: objet,
@@ -35,16 +26,17 @@ function Footer() {
       }).then(function (response) {
         if (response.status === 201) {
           setNotif(true);
-          console.log(notif);
         }
         console.log(response);
       }).catch(function (error) {
         console.log(error);
       });
+      setNotif(true);
+      setError(false);
     }
-    else {
-      console.log("Pas entrée !");
-    }
+    else
+      setError(true);
+      setNotif(false);
   }
   return (
     <footer id="footer" className="container row row-bottom">
@@ -100,7 +92,7 @@ function Footer() {
               {
                 error ?
                   <div className="col-11 row" id="error">
-                    <p>Vérifiez que tous les champs sont bien remplis</p>
+                    <p>Il y a des champs non remplis</p>
                   </div>
                   :
                   ""
@@ -109,9 +101,6 @@ function Footer() {
                 notif ?
                   <div className="col-11 row" id="notif">
                     <p className="container" >Message bien envoyé !</p>
-                    <div className="container" onClick={setNotif(false)}>
-                      Fermer
-                    </div>
                   </div>
                   : ""
               }
