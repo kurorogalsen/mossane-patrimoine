@@ -1,18 +1,69 @@
-import React from "react";
-import Input from "react-phone-number-input/input";
+import React, { useState } from 'react';
+import axios from "axios";
 import "././../styles/footer.css";
 import entrepreneur from "./../assets/entrepreneur.webp";
 import sent from "./../assets/sent.webp";
 function Footer() {
+  const [notif, setNotif] = useState(false);
+  const [error, setError] = useState(false);
+  const [nomcomplet, setNomcomplet] = useState("");
+  const [telephone, setTelephone] = useState("");
+  const [msg, setMsg] = useState("");
+  const [email, setEmail] = useState("");
+  const [objet, setObjet] = useState("");
+  function sendMail(e) {
+    e.preventDefault();
+
+    if (nomcomplet !== "" && telephone !== "" && msg !== "" && email !== "" && objet !== "") {
+      setError(false);
+      setNotif(true);
+      console.log("correct");
+    }
+    else {
+      setError(true);
+      console.log("erreur");
+    }
+
+    if (error === false) {
+      console.log("Entrée !");
+      axios.post('https://www.mossanegroup.com/mailling', {
+        objet: objet,
+        prenom_nom: nomcomplet,
+        telephone: telephone,
+        message: msg,
+        email: email
+      }).then(function (response) {
+        if (response.status === 201) {
+          setNotif(true);
+          console.log(notif);
+        }
+        console.log(response);
+      }).catch(function (error) {
+        console.log(error);
+      });
+    }
+    else {
+      console.log("Pas entrée !");
+    }
+  }
   return (
     <footer id="footer" className="container row row-bottom">
-      <img className="col-12 col-md-8 col-xl-5 col-xxl-4" src={entrepreneur} />
+      <img className="col-12 col-md-12 col-xl-5 col-xxl-4" src={entrepreneur} />
       <div className="col-12 col-xl-7 col-xxl-8">
         <div id="contact-container" className="container row row-bottom">
           <div id="footer-container" className="col-12 col-lg-4">
             <h3 className="container row">Contactez nous !</h3>
             <form className="container column">
               <input
+                onChange={ev => setEmail(ev.target.value)}
+                className="col-11"
+                type="text"
+                name="mail"
+                placeholder="Votre adresse mail"
+                required
+              />
+              <input
+                onChange={ev => setObjet(ev.target.value)}
                 className="col-11"
                 type="text"
                 name="objet"
@@ -20,6 +71,7 @@ function Footer() {
                 required
               />
               <input
+                onChange={ev => setNomcomplet(ev.target.value)}
                 className="col-11"
                 type="text"
                 name="Nom"
@@ -27,26 +79,42 @@ function Footer() {
                 required
               />
               <input
-                type="tel"
-                pattern="[7]{1}[5-8]{1}[0-9]{7}"
+                onChange={ev => setTelephone(ev.target.value)}
+                type="text"
                 className="col-11"
                 placeholder="Telephone"
                 required
               />
               <textarea
+                onChange={ev => setMsg(ev.target.value)}
                 className="col-11"
-                rows="10"
+                rows="5"
                 col="10"
                 placeholder="Votre message ici..."
                 required
               ></textarea>
-              <div className="col-11 row">
-                Le formulaire n'est pas encore fonctionnel veuillez appeler svp.
-              </div>
-              <button id="send-mail" className="mossane-btn" type="submit" disabled>
+              <button onClick={(e) => { sendMail(e) }} id="send-mail" className="mossane-btn" type="submit">
                 {" "}
                 Envoyer <img width="10" src={sent} />
               </button>
+              {
+                error ?
+                  <div className="col-11 row" id="error">
+                    <p>Vérifiez que tous les champs sont bien remplis</p>
+                  </div>
+                  :
+                  ""
+              }
+              {
+                notif ?
+                  <div className="col-11 row" id="notif">
+                    <p className="container" >Message bien envoyé !</p>
+                    <div className="container" onClick={setNotif(false)}>
+                      Fermer
+                    </div>
+                  </div>
+                  : ""
+              }
             </form>
           </div>
           <div className="col-11 col-lg-6 column-left" id="contact">
@@ -60,7 +128,7 @@ function Footer() {
             </div>
             <div className="contact-group">
               <h4>Adresse e-mail</h4>
-              <p>{/* contact@groupemossane.com */} À venir...</p>
+              <p>contact@groupemossane.com À venir...</p>
             </div>
             <p>
               Ce site a été conçu et déployé par la{" "}

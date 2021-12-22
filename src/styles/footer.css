@@ -4,72 +4,108 @@
   padding-top: 30px;
   font-size: 1.2em;
 }
-#footer > img {
+
+#footer>img {
   border-radius: 0% 5% 0% 0%;
 }
-#footer > div {
+
+#footer>div {
   background-color: #020727;
 }
+
 #contact-container {
   padding: 10px;
 }
-#footer-container > h3 {
+
+#footer-container>h3 {
   padding: 20px;
   justify-content: flex-start;
 }
-#footer-container > div {
+
+#footer-container>div {
   padding: 20px;
   margin: 10px;
 }
-#footer-container > form > * {
+
+#footer-container>form>* {
   padding: 10px;
   margin: 10px;
   outline: none;
 }
-#footer-container > form {
+
+#footer-container>form {
   background-color: var(--primary-color);
 }
-#contact > * > #mention,
-#contact > * > h4 {
+
+#contact>*>#mention,
+#contact>*>h4 {
   color: var(--secondary-color);
 }
+
 #contact {
   padding-left: 75px;
   text-align: left;
 }
+
 .contact-group {
   line-height: 1.5em;
   margin-bottom: 15px;
 }
-.contact-group > a {
+
+.contact-group>a {
   color: white;
 }
+
 #send-mail {
   align-self: start;
-  margin: 20px!important;
+  margin: 20px !important;
 }
+
 .mossane-link {
   cursor: pointer;
 }
+
 @media screen and (max-width: 992px) {
   #contact {
     padding: 10px;
     margin-top: 30px;
     text-align: left;
   }
+
   #send-mail {
     align-self: center;
-    margin: 10px!important;
+    margin: 10px !important;
   }
-  #footer-container > h3 {
+
+  #footer-container>h3 {
     justify-content: center;
   }
+
   #footer {
     font-size: 1em;
   }
 }
+
+#notif {
+  background-color: rgb(16, 161, 23) !important;
+  z-index: 10000;
+  padding: 3px;
+  font-size: 0.5rem;
+  width: 100%;
+  margin: 0px !important;
+}
+
+#error {
+  background-color: rgb(156, 35, 35) !important;
+  z-index: 10000;
+  padding: 3px;
+  font-size: 0.7rem;
+  width: 100%;
+  margin: 0px !important;
+}
+
 @media screen and (max-width: 1200px) {
-  #footer > img {
+  #footer>img {
     border-radius: 0% 0% 0% 0%;
   }
 }

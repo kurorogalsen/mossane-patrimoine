@@ -63,7 +63,6 @@ function Testimonial() {
         <div key={avis.id} className={`col-11 col-sm-10 col-md-9 col-lg-4 testimonial column  ${(testiopacity === avis.id ||  testiopacity -1  === avis.id)? " testi-ok " : " testi-no "}`}>
           <p className="container">{avis.commentaire}</p>
           <div className="container">{avis.auteur}</div>
-          {console.log(testiopacity + " et " + avis.id )}
         </div>
       ))}
       <div style={{color: "var(--secondary-color)", padding: "30px"}} className="container row">

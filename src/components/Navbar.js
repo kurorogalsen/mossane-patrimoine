@@ -3,6 +3,7 @@ import "./../styles/Header.css";
 import logo from "../assets/logo_bg_removed.png";
 import { Link } from "react-router-dom";
 import Scrollcontact from "./Scrollcontact";
+import menu from "./../assets/menu.webp";
 
 function Navbar() {
   const titre = "Mossane Patrimoine";
@@ -29,11 +30,10 @@ function Navbar() {
   return (
     <div id="scrollUpAnchor">
       <nav
-        className={`${
-          navbar
-            ? "mossane-navbar container row-between mossane-navbar-reveal"
-            : "mossane-navbar container row-between"
-        }`}
+        className={`${navbar
+          ? "mossane-navbar container row-between mossane-navbar-reveal"
+          : "mossane-navbar container row-between"
+          }`}
       >
         <img id="logo" src={logo} alt={titre} />
         <ul className="row">
@@ -73,9 +73,8 @@ function Navbar() {
 
       <nav
         id="mossane-menu-mobile"
-        className={`column ${
-          open ? "mossane-menu-mobile-close" : "mossane-menu-mobile-open"
-        }`}
+        className={`column ${open ? "mossane-menu-mobile-close" : "mossane-menu-mobile-open"
+          }`}
       >
         <img id="logo" src={logo} alt={titre} />
         <ul className="column">
@@ -165,12 +164,14 @@ function Navbar() {
           </div>
         </ul>
       </nav>
-
-      <div
+      <img
+        src={menu}
+        width="40"
+        alt="menu"
         id="mossane-btn-burger"
         className={`column ${open ? "burger-anim-true" : "burger-anim-false"}`}
         onClick={showMenu}
-      ></div>
+      />
     </div>
   );
 }
