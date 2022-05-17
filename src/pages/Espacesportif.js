@@ -4,13 +4,13 @@ import "./../styles/citation.css";
 import Headertemplate from "../components/Headertemplate";
 import Citation from "../components/Citation";
 import sport from "./../assets/sport.webp";
-import jordan from "./../assets/jordan.webp";
-import siki from "./../assets/siki.webp";
-import floyd from "./../assets/floyd.webp";
-import ali from "./../assets/ali.webp";
-import woods from "./../assets/woods.webp";
-import maradona from "./../assets/maradona.webp";
-import bolt from "./../assets/bolt.webp";
+import jordan from "./../assets/sportif/mjordan.webp";
+import siki from "./../assets/sportif/siki.webp";
+import floyd from "./../assets/sportif/floyd.webp";
+import ali from "./../assets/sportif/mhali.webp";
+import woods from "./../assets/sportif/twoods.webp";
+import maradona from "./../assets/sportif/maradona.webp";
+import bolt from "./../assets/sportif/bolt.webp";
 import Aos from "aos";
 
 function Espacesportif() {
@@ -21,7 +21,7 @@ function Espacesportif() {
     {
       id: 0,
       urlImg: floyd,
-      citation: "« Pour être le meilleur, vous devez faire des heures supplémentaires »",
+      citation: "« Pour être le meilleur, vous devez faire des heures supplémentaires. »",
       comment: "50 victoires-0 défaite et 6 fois champion du monde dans 5 catégories de poids différentes.",
       author: "Floyd Mayweather",
     },
@@ -29,7 +29,7 @@ function Espacesportif() {
       id: 1,
       urlImg: jordan,
       citation: "« J’ai toujours cru que si tu mets tout en œuvre pour réussir, les résultats viendront. » ",
-      comment: "6 fois champion NBA, 2 fois médaillé d’or olympique",
+      comment: "6 fois champion NBA, 2 fois médaillé d’or olympique.",
       author: "M. Jordan",
     },
     {
@@ -49,14 +49,14 @@ function Espacesportif() {
     {
       id: 4,
       urlImg: ali,
-      citation: "« J’ai détesté chaque minute d’entrainement mais je me suis dit « N’abandonne pas, souffre et vit le reste de ta vie comme un champion » ",
+      citation: "« J’ai détesté chaque minute d’entrainement mais je me suis dit « N’abandonne pas, souffre et vit le reste de ta vie comme un champion. » ",
       comment: "",
       author: "Mohamed Ali",
     },
     {
       id: 5,
       urlImg: woods,
-      citation: "« Quand vous avez un véritable but véritable dans la vie, travailler dur n’est pas une option, c’est une nécessité »",
+      citation: "« Quand vous avez un but véritable dans la vie, travailler dur n’est pas une option, c’est une nécessité. »",
       comment: "",
       author: "T.Woods",
     },

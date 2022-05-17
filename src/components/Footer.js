@@ -109,15 +109,15 @@ function Footer() {
           <div className="col-11 col-lg-6 column-left" id="contact">
             <div className="contact-group">
               <h4>Adresse physique</h4>
-              <p>Sacré cœur 3 VDN extension n° 10378</p>
+              <p>Sacré cœur 3 VDN extension n° 10378, Dakar, Sénégal</p>
             </div>
             <div className="contact-group">
               <h4>Numéro de téléphone</h4>
-              <a href="tel:+221772369481">772369481</a> / <a href="tel:+221763771820">763771820</a>
+              <a href="tel:+221772369481">+221 77 236 94 81</a> / <a href="tel:+221763771820">+221 76 377 18 20</a>
             </div>
             <div className="contact-group">
               <h4>Adresse e-mail</h4>
-              <p>contact@groupemossane.com À venir...</p>
+              <p>contact@groupemossane.com</p>
             </div>
             <p>
               Ce site a été conçu et déployé par la{" "}

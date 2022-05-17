@@ -1,4 +1,4 @@
-import React, { useEffect }  from "react";
+import React, { useEffect } from "react";
 import "./../styles/cabinet.css";
 import Headertemplate from "../components/Headertemplate";
 import team from "./../assets/team.webp";
@@ -14,7 +14,7 @@ function Cabinet() {
       id: 0,
       urlImg: null,
       name: "Papa Socé Fall",
-      text: "Papa Socé FALL, Président Directeur Général. Il est diplômé du Centre d’études des Techniques Financières d’ingénierie de l’université Aix Marseille 3 (Master 2 gestion de patrimoine). Cette formation a débouché sur une carrière bancaire de 10 ans en France où il a occupé des postes de Conseiller en patrimoine financier et de chargé d’affaires professionnelles. Professeur auprès d'instituts d’enseignements privés où il enseigne l’ingénierie patrimoniale, les techniques et pratiques bancaires et le marketing bancaire. Titulaire d’un certificat de formation professionnelle en formation immobilière à l’Institut des Professions Juridiques et Immobilières (IPJI) de Dakar, diplôme obtenu en 2021.",
+      text: "Papa Socé FALL, Président Directeur Général. Il est diplômé du Centre d’études des Techniques Financières d’ingénierie de l’université Aix Marseille 3 (Master 2 gestion de patrimoine). Cette formation a débouché sur une carrière bancaire de 10 ans en France où il a occupé des postes de Conseiller en patrimoine financier et de chargé d’affaires professionnelles. Professeur auprès d'instituts d’enseignements privés où il enseigne l’ingénierie patrimoniale, les techniques et pratiques bancaires et le marketing bancaire. Titulaire d'un certificat professionnel option Professions immobilères à l'institut des Professions Juridiques et Immobilières (IPJI) de Dakar.",
     },
     {
       id: 1,
@@ -25,12 +25,6 @@ function Cabinet() {
   ];
   const consultantInfo = [
     {
-      id: 0,
-      urlImg: null,
-      name: "Dr Pape Saër Gueye",
-      text: "Consultant, titulaire d’un Doctorat Unique en Droit Privé à l’Université Cheikh Anta DIOP de Dakar et ex chef de filière droit des affaires à l’Institut de Mangement de Dakar, Dr. GUEYE est consultant en droit privé et dispose d’une expérience pointue à la fois en droit matrimonial, en droit immobilier, en droit des assurances. Il intervient également dans tous les domaines du droit bancaire, social, civil et commercial.",
-    },
-    {
       id: 1,
       urlImg: null,
       name: "Cheikh Diallo",
@@ -39,13 +33,14 @@ function Cabinet() {
   ];
   return (
     <main id="cabinet" className="container column">
-      <Headertemplate urlImg={team} text="Le cabinet" />
+      {/* <Headertemplate urlImg={team} text="Le cabinet" /> */}
       <h2>Présentation de l'équipe:</h2>
       <div className="container row row-top">
         <Team team={teamInfo} />
+        <Team team={consultantInfo} />
+
       </div>
       <div className="container row row-top">
-        <Team team={consultantInfo} />
       </div>
     </main>
   );

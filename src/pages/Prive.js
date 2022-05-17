@@ -119,7 +119,7 @@ function Prive() {
             Pour la gestion de votre patrimoine immobilier, nous vous proposons
             les services suivants :{" "}
           </h4>
-          <img style={{padding: "15px"}} className="col-12 col-md-9" src={patrimoine} alt="patrimoine" />
+          <img style={{ padding: "15px" }} className="col-12 col-md-9" src={patrimoine} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listService} />
           </div>
@@ -128,7 +128,7 @@ function Prive() {
           <h4 className="container" data-aos="zoom-in">
             Promotion immobilière :{" "}
           </h4>
-          <img style={{padding: "15px"}} className="col-12 col-md-9" src={construction} alt="patrimoine" />
+          <img style={{ padding: "15px" }} className="col-12 col-md-9" src={construction} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listImmobilière} />
           </div>
@@ -137,12 +137,25 @@ function Prive() {
           <h4 className="container" data-aos="zoom-in">
             Placement et gestion de portefeuille :{" "}
           </h4>
-          <img style={{padding: "15px"}} className="col-12 col-md-9" src={bourse} alt="patrimoine" />
+          <img style={{ padding: "15px" }} className="col-12 col-md-9" src={bourse} alt="patrimoine" />
           <div className="container row row-top">
             <List services={listPortefeuille} />
           </div>
         </div>
       </section>
+
+      <section className="titleP col-12 col-lg-5 container column column-left">
+        <h4 data-aos="zoom-in">
+          Préparation des études supérieures de vos enfants :
+        </h4>
+        <img className="container" src={etude} />
+        <p data-aos="zoom-in">
+          Le financement des études supérieures de vos enfants vous préoccupe ?
+          Bénéficiez de nos conseils et de nos simulations vous permettant
+          d’assurer l’avenir de chacun de vos enfants en toute sérénité.
+        </p>
+      </section>
+
       <section className="titleP col-12 col-lg-5 container column column-left">
         <h4 data-aos="zoom-in">Préparation retraite :</h4>
         <img className="container" src={retraite} />
@@ -158,28 +171,6 @@ function Prive() {
         </p>
       </section>
       <section className="titleP col-12 col-lg-5 container column column-left">
-        <h4 data-aos="zoom-in">Gestion des successions</h4>
-        <img className="container" src={heritage} />
-        <p data-aos="zoom-in">
-          Nous nous occupons de toutes les démarches administratives liées à une
-          succession : jugement d’hérédité, certification de non opposition ni
-          appel, mutations des biens immobiliers, partage de la succession
-          (droit commun ou droit musulman), déblocage et partage des fonds
-          détenus en banque, etc.
-        </p>
-      </section>
-      <section className="titleP col-12 col-lg-5 container column column-left">
-        <h4 data-aos="zoom-in">
-          Préparation des études supérieures de vos enfants :
-        </h4>
-        <img className="container" src={etude} />
-        <p data-aos="zoom-in">
-          Le financement des études supérieures de vos enfants vous préoccupe ?
-          Bénéficiez de nos conseils et de nos simulations vous permettant
-          d’assurer l’avenir de chacun de vos enfants en toute sérénité.
-        </p>
-      </section>
-      <section className="titleP col-12 col-lg-5 container column column-left">
         <h4 data-aos="zoom-in">
           Conseils en transmission du patrimoine privé et protection de la
           famille:
@@ -192,6 +183,17 @@ function Prive() {
           son patrimoine tout en préservant une harmonie familiale : donations,
           testament, démembrements de propriété, assurance vie, etc. Notre expertise vous permettra de faire le
           choix adapté à votre situation.
+        </p>
+      </section>
+      <section className="titleP col-12 col-lg-5 container column column-left">
+        <h4 data-aos="zoom-in">Gestion des successions</h4>
+        <img className="container" src={heritage} />
+        <p data-aos="zoom-in">
+          Nous nous occupons de toutes les démarches administratives liées à une
+          succession : jugement d’hérédité, certification de non opposition ni
+          appel, mutations des biens immobiliers, partage de la succession
+          (droit commun ou droit musulman), déblocage et partage des fonds
+          détenus en banque, etc.
         </p>
       </section>
     </main>

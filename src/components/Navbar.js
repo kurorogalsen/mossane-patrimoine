@@ -26,6 +26,7 @@ function Navbar() {
       setOpen(!open);
     });
   }
+  const [activeLink, setActiveLink] = useState("Accueil");
 
   return (
     <div id="scrollUpAnchor">
@@ -38,13 +39,13 @@ function Navbar() {
         <img id="logo" src={logo} alt={titre} />
         <ul className="row">
           <Link to="/">
-            <li className="mossane-link mossane-link-active"> Accueil </li>
+            <li className={`mossane-link mossane-link-active`}  onClick={ev => {setActiveLink(ev.target.textContent)}}>Accueil</li>
           </Link>
-          <Link to="/cabinet/">
+          {/* <Link to="/cabinet/">
             <li className="mossane-link"> Le cabinet </li>
-          </Link>
-          <li className="mossane-link mossane-dropdown">
-            <a href="#">Activités</a>
+          </Link> */}
+          <li className={`mossane-link mossane-dropdown`}   onClick={ev => {setActiveLink(ev.target.textContent)}}>
+            <a href="#" onClick={ev => {setActiveLink(ev.target.textContent)}}>Activités</a>
             <div className="mossane-dropdown-hover column">
               <ul className="container row">
                 <Link to="/prive/">
@@ -60,10 +61,10 @@ function Navbar() {
             </div>
           </li>
           <Link to="/espaceSportif/">
-            <li className="mossane-link"> Espace sportif </li>
+            <li className={`mossane-link `} onClick={ev => {setActiveLink(ev.target.textContent)}}>Espace sportif</li>
           </Link>
           <Link to="/actualites/">
-            <li className="mossane-link"> Actualités </li>
+            <li className={`mossane-link `} onClick={ev => {setActiveLink(ev.target.textContent)}}>Actualités</li>
           </Link>
           <li className="mossane-link">
             <Scrollcontact />
@@ -89,15 +90,17 @@ function Navbar() {
               </li>
             </Link>
           </div>
-          <hr className="mossane-divider" />
-          <div className="link-parent">
-            <Link to="/cabinet/">
-              <li className="mossane-link" onClick={showMenu}>
-                {" "}
-                Le cabinet{" "}
-              </li>
-            </Link>
-          </div>
+          {/* 
+            <hr className="mossane-divider" />
+            <div className="link-parent">
+              <Link to="/cabinet/">
+                <li className="mossane-link" onClick={showMenu}>
+                  {" "}
+                  Le cabinet{" "}
+                </li>
+              </Link>
+            </div> 
+          */}
           <hr className="mossane-divider" />
 
           <li className="mossane-link mossane-dropdown">

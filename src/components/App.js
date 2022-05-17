@@ -20,8 +20,8 @@ function App() {
         <Switch>
           <Route path="/mossane-patrimoine/" exact component={Main} />
           <Route path="/" exact component={Main} />
-          <Route path="/cabinet/" exact component={Cabinet} />
-          <Route path="/prive/" exact component={Prive} />
+          {/*<Route path="/cabinet/" exact component={Cabinet} />*/}
+           <Route path="/prive/" exact component={Prive} />
           <Route path="/professionnelle/" exact component={Professionnelle} />
           <Route path="/formations/" exact component={Formations} />
           <Route path="/espaceSportif/" exact component={Espacesportif} />
